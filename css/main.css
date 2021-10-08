@@ -1,5 +1,4 @@
 /* tags */
-
 h1 {
     padding: 15px 10px;
 }
@@ -17,6 +16,16 @@ h1 {
     border-radius: 4px;
 }
 
+.box.content-none {
+    height: 40px;
+    padding: 0;
+}
+
+[class*="offset-"]>div.box {
+    background-color: transparent;
+    border: currentColor;
+}
+
 .nested-box {
     display: flex;
     align-items: center;
@@ -29,6 +38,6 @@ h1 {
     border-radius: 4px;
 }
 
-.separetor {
+.separator {
     height: 30px;
 }
